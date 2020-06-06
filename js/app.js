@@ -65,7 +65,7 @@
     }
 
     cero.onclick = function(e){
-        resultado.textContent = resultado.textContent.slice(0) + "0";
+        resultado.textContent = resultado.textContent + "0";
         
     }
     punto.onclick = function(e){
